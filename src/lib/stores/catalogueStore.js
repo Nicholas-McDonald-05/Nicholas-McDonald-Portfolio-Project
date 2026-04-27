@@ -7,39 +7,39 @@ import { writable, derived } from 'svelte/store';
 const initialCatalogue = [
     {
         id: "1",
-        title: "Morning Stretch Ritual",
-        description: "A gentle full-body stretch routine rooted in yoga and shinobi practices to awaken body and mind.",
-        category: "movement",
+        title: "Withered Foxy Zine",
+        description: "A digital art piece created for a zine collab based on Five Nights at Freddy's.",
+        category: "2D",
         tags: ["mindfulness", "morning", "mobility"],
         featured: false,
-        image: "/images/catalogue/item-1.png"
+        image: "/images/catalogue/W_Foxy_ZineFinal.png"
     },
     {
         id: "2",
-        title: "Digital Declutter",
-        description: "A mindful practice of clearing digital clutter from your phone, desktop, and online space.",
-        category: "focus",
+        title: "Metal Sonic Painting",
+        description: "A digital painting made to test replicating the style of older Sonic CD promo art.",
+        category: "2D",
         tags: ["focus", "discipline", "organisation"],
         featured: false,
-        image: "/images/catalogue/item-2.png"
+        image: "/images/catalogue/really good metal ig.png"
     },
     {
         id: "3",
-        title: "Evening Journaling",
-        description: "A structured journaling method inspired by Marcus Aurelius and the Bushidō value of reflection.",
-        category: "reflection",
+        title: "Into the Pit",
+        description: "A pixel art piece based on Into the Pit, was featured in a dev showcase with other works.",
+        category: "Pixel Art",
         tags: ["stoicism", "gratitude", "habit"],
         featured: true,
-        image: "/images/catalogue/item-3.png"
+        image: "/images/catalogue/Pit_Bonnie.png"
     },
     {
         id: "4",
-        title: "Breath Awareness",
-        description: "Learn the art of breath control (kokyū) to centre attention and regulate stress.",
-        category: "calm",
+        title: "Outside Your Window",
+        description: "A 3D render made in SFM of Ignited Bonnie from The Joy of CreationS.",
+        category: "3D",
         tags: ["zen", "calm", "resilience"],
         featured: true,
-        image: "/images/catalogue/item-4.png"
+        image: "/images/catalogue/Ignited_Bonnie_Render.png"
     },
     {
         id: "5",

@@ -24,7 +24,7 @@
 
 
 <svelte:head>
-    <title>Starter Kit</title>
+    <title>Nicholas McDonald's Portfolio</title>
 </svelte:head>
 
 
@@ -32,18 +32,12 @@
 <div class="home-container">
     <!-- Hero Section -->
     <section class="hero">
-        <h1>Live Mindfully. Learn Purposefully.</h1>
-        <p class="subheading">
-            Inspired by the 7 Virtues of Bushidō and the 11 Principles of the Shinobi.
-        </p>
-        <button class="inspire-button" on:click={openQuoteModal}>
-            Find Inspiration
-        </button>
+        <h1>Might as well stick around, there's lots to see</h1>
     </section>
 
     <!-- Featured Catalogue Section -->
     <section class="featured">
-        <h2>Featured Practices</h2>
+        <h2>Featured Art Pieces</h2>
         <div class="card-grid">
             {#each featuredItems as item, index}
                 <button
@@ -75,13 +69,6 @@
         </p>
         <a href="{resolve('/about')}" class="learn-more">Learn more →</a>
     </section>
-
-    <!-- Quote Modal -->
-    <Modal
-        bind:isOpen={showQuoteModal}
-        {...$currentQuote}
-        onClose={() => (showQuoteModal = false)}
-    />
 </div>
 
 
@@ -111,7 +98,7 @@
         font-family: var(--font-heading);
         margin-bottom: var(--space-sm);
     }
-
+/*
     .subheading {
         font-size: var(--font-lg);
         font-family: var(--font-body);
@@ -135,7 +122,7 @@
     .inspire-button:focus {
         background-color: var(--color-highlight);
     }
-
+**/
     /* Featured Section */
     .featured {
         padding: 0 var(--space-md);

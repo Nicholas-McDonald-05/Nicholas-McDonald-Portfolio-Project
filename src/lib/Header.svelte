@@ -6,8 +6,7 @@
 
 <header class="header">
     <div class="logo-area">
-        <img src={asset("/logo.png")} alt="Starter Kit Logo" />
-        <h1>Starter Kit</h1>
+        <h1>> Welcome to my Portfolio</h1>
     </div>
     <Navigation />
 </header>
@@ -27,7 +26,7 @@
     }
 
     .logo-area {
-        display: flex;
+        /*display: flex;**/
         align-items: center;
         gap: var(--space-sm);
         font-family: var(--font-heading);

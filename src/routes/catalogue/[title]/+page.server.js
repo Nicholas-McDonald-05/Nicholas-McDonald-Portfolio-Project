@@ -1,10 +1,10 @@
 export async function entries() {
 	return [
-		{ title: "Morning Stretch Ritual" },
-		{ title: "Digital Declutter" },
-		{ title: "Evening Journaling" },
-		{ title: "Breath Awareness" },
-		{ title: "Nature Walks" },
+		{ title: "Withered Foxy Zine" },
+		{ title: "Metal Sonic Digital Painting" },
+		{ title: "Sketch" },
+		{ title: "Sketch" },
+		{ title: "Sketch" },
 		{ title: "Weekly Reflection" },
 		{ title: "Obstacle Reframing" },
 		{ title: "One-Meal Fasting Practice" },
