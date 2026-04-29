@@ -31,8 +31,10 @@
 <!-- Page Container -->
 <div class="home-container">
     <!-- Hero Section -->
-    <section class="hero">
-        <h1>Might as well stick around, there's lots to see</h1>
+    <section class="opener">
+        <h1>> Welcome to my art portfolio, hope you like it here.</h1>
+        <br>
+        <h1>> Might as well stick around, there's lots to see.</h1>
     </section>
 
     <!-- Featured Catalogue Section -->
@@ -80,63 +82,40 @@
     }
 
     /* Hero Section */
-    .hero {
+    .opener {
         text-align: center;
         padding: var(--space-xl) var(--space-md);
+        border: 5px solid #ffffff;
         border-radius: var(--radius-md);
-        box-shadow: var(--shadow-sm);
-        background-image: url('/images/backgrounds/zen-hero.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-blend-mode: overlay;
-        background-color: rgba(255, 255, 255, 0.75);
+        box-shadow: 2px 2px #61c9f9;
+        background-color: #000000;
     }
 
-    .hero h1 {
+    .opener h1 {
         font-size: var(--font-xxl);
-        font-family: var(--font-heading);
+        font-family: 'Courier New', Courier, monospace;
         margin-bottom: var(--space-sm);
-    }
-/*
-    .subheading {
-        font-size: var(--font-lg);
-        font-family: var(--font-body);
-        color: var(--text-secondary);
-        margin-bottom: var(--space-md);
+        color: rgb(254, 255, 255);
+        text-shadow: 1px 2px #61c9f9;
     }
 
-    .inspire-button {
-        padding: var(--space-sm) var(--space-lg);
-        background-color: var(--color-accent);
-        color: var(--text-contrast);
-        font-size: var(--font-base);
-        font-weight: 600;
-        border: none;
-        border-radius: var(--radius-sm);
-        cursor: pointer;
-        transition: background-color var(--transition-fast);
-    }
-
-    .inspire-button:hover,
-    .inspire-button:focus {
-        background-color: var(--color-highlight);
-    }
-**/
     /* Featured Section */
     .featured {
         padding: 0 var(--space-md);
-        background-image: url('/images/backgrounds/rice-texture.png');
         background-size: 200px;
         background-repeat: repeat;
-        background-color: rgba(255, 255, 255, 0.85);
+        background-color: #000000;
+        border: 5px solid #ffffff;
+        border-radius: var(--radius-md);
     }
 
     .featured h2 {
         text-align: center;
-        font-family: var(--font-heading);
+        font-family: 'Courier New', Courier, monospace;
         font-size: var(--font-xl);
         margin-bottom: var(--space-lg);
+        color: #ffffff;
+        text-shadow: 1px 2px #61c9f9;
     }
 
 	/* Ensure button styling doesn’t interfere */
@@ -174,23 +153,28 @@
         padding: var(--space-lg) var(--space-md);
         background-color: var(--color-background);
         border-top: var(--border-default);
-        background: linear-gradient(to top, var(--color-surface), transparent);
-        background-image: url('/images/backgrounds/scroll-teaser.png');
+        /*background: linear-gradient(to top, var(--color-surface), transparent);**/
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: overlay;
-        background-color: rgba(255, 255, 255, 0.75);
+        background-color: rgba(0, 0, 0, 0.75);
+        border: 5px solid #ffffff;
+        border-radius: var(--radius-md);
     }
 
     .about-teaser h2 {
-        font-family: var(--font-heading);
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        text-shadow: 1px 2px #61c9f9;
         margin-bottom: var(--space-sm);
     }
 
     .about-teaser p {
         font-size: var(--font-base);
-        color: var(--text-secondary);
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        font-weight: bold;
         max-width: 60ch;
         margin: 0 auto var(--space-sm) auto;
     }

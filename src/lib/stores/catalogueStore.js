@@ -10,7 +10,7 @@ const initialCatalogue = [
         title: "Withered Foxy Zine",
         description: "A digital art piece created for a zine collab based on Five Nights at Freddy's.",
         category: "2D",
-        tags: ["mindfulness", "morning", "mobility"],
+        tags: ["digital", "morning", "mobility"],
         featured: false,
         image: "/images/catalogue/W_Foxy_ZineFinal.png"
     },
@@ -35,7 +35,7 @@ const initialCatalogue = [
     {
         id: "4",
         title: "Outside Your Window",
-        description: "A 3D render made in SFM of Ignited Bonnie from The Joy of CreationS.",
+        description: "A 3D render made in SFM of Ignited Bonnie from The Joy of Creation.",
         category: "3D",
         tags: ["zen", "calm", "resilience"],
         featured: true,

@@ -6,7 +6,7 @@
 
 <header class="header">
     <div class="logo-area">
-        <h1>> Welcome to my Portfolio</h1>
+        <h1 class="head-text">Nicholas McDonald's Portfolio</h1>
     </div>
     <Navigation />
 </header>
@@ -18,7 +18,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 var(--space-lg);
-        background-color: var(--color-surface);
+        background-color: #000000;
         box-shadow: var(--shadow-md);
         border-bottom: var(--border-default);
         position: relative;
@@ -29,21 +29,18 @@
         /*display: flex;**/
         align-items: center;
         gap: var(--space-sm);
-        font-family: var(--font-heading);
+        font-family: 'Courier New', Courier, monospace;
     }
 
-    .logo-area img {
-        width: 96px;
-        height: auto;
-        border-radius: var(--radius-sm);
-        box-shadow: var(--shadow-sm);
+    .head-text{
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .logo-area h1 {
         margin: 0;
         font-size: var(--font-xxl);
         font-weight: 700;
-        background: var(--gradient-brand);
+        background: #ffffff;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

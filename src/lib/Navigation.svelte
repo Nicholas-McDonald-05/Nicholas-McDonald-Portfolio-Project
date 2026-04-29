@@ -72,10 +72,11 @@
 
     .nav a {
         position: relative;
-        font-family: var(--font-body);
+        font-family: 'Courier New', Courier, monospace;
         font-size: var(--font-lg);
         font-weight: 600;
-        color: var(--text-primary);
+        color: #ffffff;
+        text-shadow: #61c9f9;
         padding: var(--space-xs) var(--space-sm);
         text-decoration: none;
         transition: color var(--transition-fast);
@@ -88,7 +89,7 @@
         bottom: 0;
         height: 2px;
         width: 100%;
-        background: var(--color-secondary);
+        background: #ffffff;
         transform: scaleX(0);
         transform-origin: left;
         transition: transform var(--transition-fast);
@@ -101,16 +102,16 @@
 
     .nav a:hover,
     .nav a:focus {
-        color: var(--color-secondary);
+        color: #61c9f9;
     }
 
     .nav a.active {
-        color: var(--color-primary);
+        color: #61c9f9;
     }
 
     .nav a.active::after {
         transform: scaleX(1);
-        background: var(--gradient-brand);
+        background: #ffffff;
         background-size: 200%;
         animation: slideGradient 4s linear infinite;
     }
