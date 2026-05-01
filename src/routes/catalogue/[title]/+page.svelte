@@ -93,7 +93,6 @@
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
-		background-image: url('/images/backgrounds/kanji-grid.png');
         background-size: 200px;
         background-repeat: repeat;
         background-color: rgba(255, 255, 255, 0.85);

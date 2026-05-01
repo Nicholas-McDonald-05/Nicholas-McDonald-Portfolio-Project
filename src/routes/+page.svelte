@@ -59,17 +59,16 @@
                 </button>
             {/each}
         </div>
-        <a class="browse-link" href="{resolve('/catalogue')}">Browse Full Catalogue →</a>
+        <a class="browse-link" href="{resolve('/catalogue')}">Check out the rest of my work ></a>
     </section>
 
     <!-- About Teaser Section -->
     <section class="about-teaser">
-        <h2>Why This Matters</h2>
+        <h2>Want to know more about me?</h2>
         <p>
-            This project blends timeless wisdom with modern habits — from Stoic journaling to Shinobi adaptability.
-            Whether you seek health, discipline, or mindfulness, our tools are here to guide you.
+            Visit my 'About Me' page below to find out anything you wish to know.
         </p>
-        <a href="{resolve('/about')}" class="learn-more">Learn more →</a>
+        <a href="{resolve('/about')}" class="learn-more">This Way ></a>
     </section>
 </div>
 
@@ -87,7 +86,7 @@
         padding: var(--space-xl) var(--space-md);
         border: 5px solid #ffffff;
         border-radius: var(--radius-md);
-        box-shadow: 2px 2px #61c9f9;
+        box-shadow: 4px 3px 5px #61c9f9;
         background-color: #000000;
     }
 
@@ -96,7 +95,7 @@
         font-family: 'Courier New', Courier, monospace;
         margin-bottom: var(--space-sm);
         color: rgb(254, 255, 255);
-        text-shadow: 1px 2px #61c9f9;
+        text-shadow: 1px 2px 2px #61c9f9;
     }
 
     /* Featured Section */
@@ -107,6 +106,7 @@
         background-color: #000000;
         border: 5px solid #ffffff;
         border-radius: var(--radius-md);
+        box-shadow: 4px 3px 5px #61c9f9;
     }
 
     .featured h2 {
@@ -115,7 +115,7 @@
         font-size: var(--font-xl);
         margin-bottom: var(--space-lg);
         color: #ffffff;
-        text-shadow: 1px 2px #61c9f9;
+        text-shadow: 1px 2px 2px #61c9f9;
     }
 
 	/* Ensure button styling doesn’t interfere */
@@ -141,10 +141,14 @@
     .browse-link {
         display: block;
         text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: #5fe2ff;
         margin-top: var(--space-md);
         font-weight: 500;
         text-decoration: none;
-        color: var(--color-accent);
+    }
+    .browse-link:hover{
+        text-decoration: underline;
     }
 
     /* About Teaser */
@@ -161,12 +165,13 @@
         background-color: rgba(0, 0, 0, 0.75);
         border: 5px solid #ffffff;
         border-radius: var(--radius-md);
+        box-shadow: 4px 3px 5px #61c9f9;
     }
 
     .about-teaser h2 {
         font-family: 'Courier New', Courier, monospace;
         color: #ffffff;
-        text-shadow: 1px 2px #61c9f9;
+        text-shadow: 1px 2px 2px #61c9f9;
         margin-bottom: var(--space-sm);
     }
 
@@ -181,7 +186,8 @@
 
     .learn-more {
         font-size: var(--font-sm);
-        color: var(--color-accent);
+        font-family: 'Courier New', Courier, monospace;
+        color: #5fe2ff;
         text-decoration: none;
     }
 

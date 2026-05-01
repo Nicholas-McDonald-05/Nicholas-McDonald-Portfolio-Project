@@ -45,7 +45,7 @@
 
 <section class="catalogue-wrapper">
 	<div class="catalogue-heading-wrapper">
-		<h1 class="catalogue-heading">Catalogue</h1>
+		<h1 class="catalogue-heading">> My Artwork</h1>
 	</div>
 
 	<div class="controls">
@@ -115,10 +115,11 @@
         width: 100%;
         margin: 0 auto;
         padding: 0;
+        background-color: #000000;
     }
 
     .catalogue-heading-wrapper {
-        background-image: url('/images/backgrounds/scroll-teaser.png');
+        background-color: #000000;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -126,19 +127,20 @@
         padding: var(--space-lg) 0;
         text-align: center;
         border-radius: var(--radius-md);
-        box-shadow: var(--shadow-sm);
+        border: 5px solid #ffffff;
+        box-shadow: 4px 3px 5px #61c9f9;
         margin-bottom: var(--space-lg);
     }
 
     .catalogue-heading {
-        font-family: var(--font-heading);
+        font-family: 'Courier New', Courier, monospace;
         font-size: var(--font-xxl);
         position: relative;
-        color: var(--text-primary);
+        color: #ffffff;
+        text-shadow: 1px 2px 2px #61c9f9;
     }
 
     .catalogue-heading::after {
-        content: "";
         display: block;
         width: 80px;
         height: 4px;

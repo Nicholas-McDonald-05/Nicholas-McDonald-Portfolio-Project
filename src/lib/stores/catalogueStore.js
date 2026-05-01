@@ -10,7 +10,7 @@ const initialCatalogue = [
         title: "Withered Foxy Zine",
         description: "A digital art piece created for a zine collab based on Five Nights at Freddy's.",
         category: "2D",
-        tags: ["digital", "morning", "mobility"],
+        tags: ["digital"],
         featured: false,
         image: "/images/catalogue/W_Foxy_ZineFinal.png"
     },
@@ -19,7 +19,7 @@ const initialCatalogue = [
         title: "Metal Sonic Painting",
         description: "A digital painting made to test replicating the style of older Sonic CD promo art.",
         category: "2D",
-        tags: ["focus", "discipline", "organisation"],
+        tags: ["digital"],
         featured: false,
         image: "/images/catalogue/really good metal ig.png"
     },
@@ -28,7 +28,7 @@ const initialCatalogue = [
         title: "Into the Pit",
         description: "A pixel art piece based on Into the Pit, was featured in a dev showcase with other works.",
         category: "Pixel Art",
-        tags: ["stoicism", "gratitude", "habit"],
+        tags: ["pixels"],
         featured: true,
         image: "/images/catalogue/Pit_Bonnie.png"
     },
@@ -37,7 +37,7 @@ const initialCatalogue = [
         title: "Outside Your Window",
         description: "A 3D render made in SFM of Ignited Bonnie from The Joy of Creation.",
         category: "3D",
-        tags: ["zen", "calm", "resilience"],
+        tags: ["render", "model"],
         featured: true,
         image: "/images/catalogue/Ignited_Bonnie_Render.png"
     },
@@ -46,7 +46,7 @@ const initialCatalogue = [
         title: "Nature Walks",
         description: "Engage all five senses during a silent walk in nature. Based on Shinrin-yoku (forest bathing).",
         category: "presence",
-        tags: ["mindfulness", "nature", "ritual"],
+        tags: [],
         featured: true,
         image: "/images/catalogue/item-5.png"
     },
@@ -55,7 +55,7 @@ const initialCatalogue = [
         title: "Weekly Reflection",
         description: "A 7-question self-check aligned with the Bushidō virtues to build purpose and resolve.",
         category: "discipline",
-        tags: ["bushido", "self-awareness", "growth"],
+        tags: [],
         featured: false,
         image: "/images/catalogue/item-6.png"
     },
@@ -64,7 +64,7 @@ const initialCatalogue = [
         title: "Obstacle Reframing",
         description: "A Stoic-based method for interpreting setbacks as learning opportunities.",
         category: "resilience",
-        tags: ["stoicism", "grit", "mental clarity"],
+        tags: [],
         featured: false,
         image: "/images/catalogue/item-7.png"
     },
@@ -73,7 +73,7 @@ const initialCatalogue = [
         title: "One-Meal Fasting Practice",
         description: "Inspired by samurai simplicity — skip a meal and reflect on needs versus wants.",
         category: "nutrition",
-        tags: ["fasting", "clarity", "minimalism"],
+        tags: [],
         featured: false,
         image: "/images/catalogue/item-8.png"
     },
@@ -82,7 +82,7 @@ const initialCatalogue = [
         title: "Power Posture Drills",
         description: "Learn ancient standing postures for strength, composure, and body awareness.",
         category: "strength",
-        tags: ["posture", "calisthenics", "movement"],
+        tags: [],
         featured: false,
         image: "/images/catalogue/item-9.png"
     },
@@ -91,7 +91,7 @@ const initialCatalogue = [
         title: "Visualisation Ritual",
         description: "A brief morning visualisation exercise inspired by shinobi anticipation training.",
         category: "focus",
-        tags: ["visualisation", "mental rehearsal", "intention"],
+        tags: [],
         featured: false,
         image: "/images/catalogue/item-10.png"
     },
@@ -100,7 +100,7 @@ const initialCatalogue = [
         title: "Cold Exposure Start",
         description: "A simple cold water splash or shower to build courage and resilience.",
         category: "discipline",
-        tags: ["resilience", "health", "willpower"],
+        tags: [],
         featured: false,
         image: "/images/catalogue/item-11.png"
     },
@@ -109,7 +109,7 @@ const initialCatalogue = [
         title: "The 5-Minute Mind Sweep",
         description: "Declutter your brain with a quick brain dump — inspired by shinobi note-scatter scrolls.",
         category: "focus",
-        tags: ["productivity", "mental clarity", "journaling"],
+        tags: [],
         featured: false,
         image: "/images/catalogue/item-12.png"
     },
@@ -118,7 +118,7 @@ const initialCatalogue = [
         title: "Honor Code Exercise",
         description: "Draft your personal code of honour. Based on the Bushidō virtues.",
         category: "values",
-        tags: ["bushido", "identity", "reflection"],
+        tags: [],
         featured: false,
         image: "/images/catalogue/item-13.png"
     },
@@ -127,7 +127,7 @@ const initialCatalogue = [
         title: "Gratitude Bow Practice",
         description: "A brief ritual of bowing with thanks before meals or rest. Builds humility and reverence.",
         category: "ritual",
-        tags: ["gratitude", "humility", "presence"],
+        tags: [],
         featured: false,
         image: "/images/catalogue/item-14.png"
     },
@@ -136,7 +136,7 @@ const initialCatalogue = [
         title: "Tea Ceremony Lite",
         description: "A simplified tea ritual for calm presence. Inspired by Zen practice.",
         category: "presence",
-        tags: ["ritual", "zen", "stillness"],
+        tags: [],
         featured: false,
         image: "/images/catalogue/item-15.png"
     }
