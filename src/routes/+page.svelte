@@ -59,7 +59,7 @@
                 </button>
             {/each}
         </div>
-        <a class="browse-link" href="{resolve('/catalogue')}">Check out the rest of my work ></a>
+        <!--<a class="browse-link" href="{resolve('/catalogue')}">Check out the rest of my work ></a>-->
     </section>
 
     <!-- About Teaser Section -->
@@ -116,7 +116,17 @@
         margin-bottom: var(--space-lg);
         color: #ffffff;
         text-shadow: 1px 2px 2px #61c9f9;
+
+        animation: flashyFeatured 0.7s infinite steps(4);
     }
+
+    @keyframes flashyFeatured {
+            0% { color: #ffffff; }
+            25% { color: #c5e9fa; }
+            50% { color: #70c9f9; }
+            75% { color: #3fc2ff; }
+            100% { color: #ffffff; }
+        }
 
 	/* Ensure button styling doesn’t interfere */
 	.card-button {
