@@ -1,5 +1,5 @@
 <footer class="footer">
-    <p>&copy; 2025 Starter Kit. Inspired by mindful design and resilient development.</p>
+    <p>&copy; 2026 Portfolio by Nicholas McD.</p>
 </footer>
 
 
@@ -8,15 +8,19 @@
         width: 100%;
         padding: var(--space-md);
         text-align: center;
-        font-family: var(--font-body);
-        font-size: var(--font-sm);
-        color: var(--text-tertiary);
-        background-color: var(--color-surface);
-        border-top: var(--border-default);
-        box-shadow: var(--shadow-sm);
+        background-color: #293f47;
+        border: 5px solid #ffffff;
+        border-radius: var(--radius-md);
         position: relative;
         z-index: 10;
         animation: fadeInFooter var(--transition-slow) ease-in-out;
+    }
+
+    .footer p{
+         font-family:'Courier New', Courier, monospace;
+        font-size: var(--font-sm);
+        color: #ffffff;
+        text-shadow: 1px 2px 2px #61c9f9;
     }
 
     .footer::before {
@@ -26,7 +30,6 @@
         left: 0;
         height: 3px;
         width: 100%;
-        background: var(--gradient-brand);
         animation: gradientScroll 6s linear infinite;
     }
 

@@ -14,7 +14,7 @@
     </section>
 
     <section class="art-section">
-        <h2>My current 2D work:</h2>
+        <h2>My Current 2D Work:</h2>
         <div class="display">
             <div>
                 <p class="art-title">Piece 1: Withered Foxy Zine</p>
@@ -113,7 +113,7 @@
         color: #ffffff;
         text-shadow: 1px 2px 2px #61c9f9;
     }
-
+    /*ARTWORK**/
     .image{
         width: 250px;
         height: 350px;

@@ -7,6 +7,7 @@
         { name: '> Home', path: '/' },
         { name: '> Catalogue', path: '/catalogue' },
         { name: '> 2D Work', path: '/2dartwork'},
+        { name: '> 3D Work', path: '/3dartwork'},
         { name: '> About', path: '/about' }
     ];
 
