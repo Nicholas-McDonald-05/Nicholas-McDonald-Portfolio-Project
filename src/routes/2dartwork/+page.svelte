@@ -17,30 +17,44 @@
         <h2>My current 2D work:</h2>
         <div class="display">
             <div>
-                <p class="art-title">Piece 1:</p>
-                <img class="image" src="/images/catalogue/W_Foxy_ZineFinal.png">
+                <p class="art-title">Piece 1: Withered Foxy Zine</p>
+                <img class="image" src="/images/catalogue/W_Foxy_ZineFinal.png" 
+                alt="A digital drawing of Withered Foxy for a Zine collab.">
             </div>
             <div>
-                <p class="art-title">Piece 2:</p>
-                <img class="image2" src="/images/catalogue/Pit_Bonnie.png">
+                <p class="art-title">Piece 2: Into the Pit</p>
+                <img class="image2" src="/images/catalogue/Pit_Bonnie.png"
+                alt="A pixel art piece based on the game 'Into the Pit'.">
             </div>
             <div>
-                <p class="art-title">Piece 3:</p>
+                <p class="art-title">Piece 3: Caine's Abstraction</p>
+                <img class="image3" src="/images/catalogue/Caine Sketch.png"
+                alt="A pen sketch of Caine during his abstration from The Amazing Digital Circus.">
             </div>
             <div>
-                <p class="art-title">Piece 4:</p>
+                <p class="art-title">Piece 4: Blighted Springtrap</p>
+                <img class="image4" src="/images/catalogue/BlightTrap.png"
+                alt="A coloured pen sketch of Blighted Springtrap from Dead by Daylight.">
             </div>
             <div>
-                <p class="art-title">Piece 5:</p>
+                <p class="art-title">Piece 5: Metal Sonic Painting</p>
+                <img class="image5" src="/images/catalogue/really good metal ig.png"
+                alt="A digital painting of Metal Sonic based on art from Sonic CD.">
             </div>
             <div>
-                <p class="art-title">Piece 6:</p>
+                <p class="art-title">Piece 6: Captain Rex</p>
+                <img class="image6" src="/images/catalogue/Cap'n Rex.png"
+                alt="A pencil and pen sketch of Captain Rex from The Clone Wars.">
             </div>
             <div>
-                <p class="art-title">Piece 7:</p>
+                <p class="art-title">Piece 7: Neo Metal Sonic</p>
+                <img class="image7" src="/images/catalogue/Neo Metal.png"
+                alt="A pen sketch of Neo Metal Sonic.">
             </div>
             <div>
-                <p class="art-title">Piece 8:</p>
+                <p class="art-title">Piece 8: S.A.B.I.I.A</p>
+                <img class="image8" src="/images/catalogue/older sab.png"
+                alt="A digital drawing of my OC 'S.A.B.I.I.A'.">
             </div>
         </div>
     </section>
@@ -106,7 +120,37 @@
     }
 
     .image2{
-        width: 300px;
+        width: 250px;
         height: 350px;
+    }
+
+    .image3{
+        width: 250px;
+        height: 350px;
+    }
+
+    .image4{
+        width: 250px;
+        height: 350px; 
+    }
+
+    .image5{
+        width: 250px;
+        height: 170px;
+    }
+
+    .image6{
+        width: 250px;
+        height: 170px;
+    }
+
+    .image7{
+        width: 250px;
+        height: 170px;
+    }
+
+    .image8{
+        width: 250px;
+        height: 170px;
     }
 </style>
