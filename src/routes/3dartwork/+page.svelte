@@ -62,7 +62,46 @@
     <section class="model-section">
         <h2>Models:</h2>
         <div class=display>
-
+            <div>
+                <p class="art-title">Model 1: Book Test</p>
+                <img class="model" src="/images/catalogue/Simple_Book.jpg" 
+                alt="A model test for creating a book in Maya.">
+            </div>
+            <div>
+                <p class="art-title">Model 2: Refined Book</p>
+                <img class="model2" src="/images/catalogue/Simple_Book-Proper.jpg"
+                alt="A proper render of the previous book model.">
+            </div>
+            <div>
+                <p class="art-title">Model 3: Tea Cup</p>
+                <img class="model3" src="/images/catalogue/TeaCup_Render.jpg"
+                alt="A model of a simple tea cup.">
+            </div>
+             <div>
+                <p class="art-title">Model 4: Simple Skeleton</p>
+                <img class="model4" src="/images/catalogue/Skeleton_Render.jpg"
+                alt="A model of a simple skeleton based on a previous 2D asset.">
+            </div>
+             <div>
+                <p class="art-title">Model 5: Small Bus</p>
+                <img class="model5" src="/images/catalogue/Van_Render.jpg"
+                alt="The BUS.">
+            </div>
+             <div>
+                <p class="art-title">Model 6: Toy Car</p>
+                <img class="model6" src="/images/catalogue/Toy Car.jpg"
+                alt="A model of a small toy car with normals.">
+            </div>
+             <div>
+                <p class="art-title">Model 7: Simple Rock Wall</p>
+                <img class="model7" src="/images/catalogue/Rock_Wall_New.jpg"
+                alt="A model of a rock wall based on a previous 2D asset.">
+            </div>
+             <div>
+                <p class="art-title">Model 8: Early Scaffolding Test</p>
+                <img class="model8" src="/images/catalogue/Scaffolding.png"
+                alt="The earliest 3D model I ever made modelled from a singular reference.">
+            </div>
         </div>
     </section>
 </div>
@@ -176,5 +215,45 @@
         margin-bottom: var(--space-lg);
         color: #ffffff;
         text-shadow: 1px 2px 2px #61c9f9;
+    }
+
+    .model{
+        width: 300px;
+        height: 200px;
+    }
+
+    .model2{
+        width: 300px;
+        height: 200px;
+    }
+
+    .model3{
+        width: 300px;
+        height: 200px;
+    }
+
+    .model4{
+        width: 300px;
+        height: 200px;
+    }
+
+    .model5{
+        width: 300px;
+        height: 200px;
+    }
+
+    .model6{
+        width: 300px;
+        height: 200px;
+    }
+
+    .model7{
+        width: 300px;
+        height: 200px;
+    }
+
+    .model8{
+        width: 300px;
+        height: 200px;
     }
 </style>
