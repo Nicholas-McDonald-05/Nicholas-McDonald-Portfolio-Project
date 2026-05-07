@@ -40,7 +40,7 @@
     <!-- Featured Catalogue Section -->
     <section class="featured">
         <h2>Featured Art Pieces</h2>
-        <div class="card-grid">
+    <!--<div class="card-grid">
             {#each featuredItems as item, index}
                 <button
 					type="button"
@@ -58,7 +58,30 @@
                     />
                 </button>
             {/each}
-        </div>
+        </div>-->
+            <div class="display">
+                <div>
+                    <p class="art-title">Piece 1: The Ruined One</p>
+                    <img class="image1" src="/images/catalogue/The Mimi.png"
+                    alt="A render of the Mimic from RUIN.">
+                </div>
+                <div>
+                    <p class="art-title">Piece 2: Into the Pit</p>
+                    <img class="image2" src="/images/catalogue/Pit_Bonnie.png"
+                    alt="A pixel art piece based on the game 'Into the Pit'.">
+                </div>
+                <div>
+                    <p class="art-title">Piece 3: Simple Skeleton</p>
+                    <img class="image3" src="/images/catalogue/Skeleton_Render.jpg"
+                    alt="A model of a simple skeleton based on a previous 2D asset.">
+                </div>
+                <div>
+                    <p class="art-title">Piece 4: Caine's Abstraction</p>
+                <img class="image4" src="/images/catalogue/Caine Sketch.png"
+                alt="A pen sketch of Caine during his abstration from The Amazing Digital Circus.">
+                </div>
+            </div>
+        
         <!--<a class="browse-link" href="{resolve('/catalogue')}">Check out the rest of my work ></a>-->
     </section>
 
@@ -100,13 +123,12 @@
 
     /* Featured Section */
     .featured {
-        padding: 0 var(--space-md);
-        background-size: 200px;
-        background-repeat: repeat;
-        background-color: #000000;
+        text-align: center;
+        padding: var(--space-xl) var(--space-md);
         border: 5px solid #ffffff;
         border-radius: var(--radius-md);
         box-shadow: 4px 3px 5px #61c9f9;
+        background-color: #000000;
     }
 
     .featured h2 {
@@ -128,37 +150,36 @@
             100% { color: #ffffff; }
         }
 
-	/* Ensure button styling doesn’t interfere */
-	.card-button {
-		all: unset; /* Remove default button styles */
-		cursor: pointer;
-		display: block;
-		text-align: inherit;
-	}
-
-	.card-button:focus-visible {
-		outline: 2px solid var(--color-accent);
-		outline-offset: 4px;
-	}
-
-    .card-grid {
+    .display{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: var(--space-lg);
-        margin-bottom: var(--space-md);
+        grid-template-columns: repeat(4, 1fr);
     }
 
-    .browse-link {
-        display: block;
-        text-align: center;
+    .art-title{
         font-family: 'Courier New', Courier, monospace;
-        color: #5fe2ff;
-        margin-top: var(--space-md);
-        font-weight: 500;
-        text-decoration: none;
+        color: #ffffff;
+        text-shadow: 1px 2px 2px #61c9f9;
     }
-    .browse-link:hover{
-        text-decoration: underline;
+
+    /*ARTWORK**/
+    .image1{
+        width: 250px;
+        height: 280px;
+    }
+
+    .image2{
+        width: 250px;
+        height: 280px;
+    }
+
+    .image3{
+        width: 250px;
+        height: 280px;
+    }
+
+    .image4{
+        width: 250px;
+        height: 280px;
     }
 
     /* About Teaser */
