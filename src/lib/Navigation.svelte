@@ -7,7 +7,7 @@
         { name: '> Home', path: '/' },
         { name: '> 2D Work', path: '/2dartwork'},
         { name: '> 3D Work', path: '/3dartwork'},
-        { name: '> About', path: '/about' }
+        { name: '> About Me', path: '/about' }
     ];
 
     let isOpen = false;

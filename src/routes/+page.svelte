@@ -186,9 +186,6 @@
     .about-teaser {
         text-align: center;
         padding: var(--space-lg) var(--space-md);
-        background-color: var(--color-background);
-        border-top: var(--border-default);
-        /*background: linear-gradient(to top, var(--color-surface), transparent);**/
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

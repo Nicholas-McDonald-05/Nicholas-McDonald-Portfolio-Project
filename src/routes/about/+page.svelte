@@ -5,7 +5,7 @@
 
 
 <svelte:head>
-    <title>About | Starter Kit</title>
+    <title>About Me | Starter Kit</title>
 </svelte:head>
 
 
@@ -41,19 +41,6 @@
     </div>
     
 </section>
-<!--<section class="reflection section-quote" aria-labelledby="reflection-title">
-	<div class="container">
-		<h2 id="reflection-title">Reflections</h2>
-		<blockquote>
-			<p>
-				“He who conquers himself is the mightiest warrior.”
-			</p>
-			<footer>— Confucius</footer>
-		</blockquote>
-	</div>
-</section>
--->
-
 
 <style>
     section {
@@ -101,48 +88,6 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-
-    .section-quote {
-		background-image: url("/images/backgrounds/zen-garden-ripples.png");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-blend-mode: overlay;
-		background-color: rgba(255, 255, 255, 0.85);
-		padding: var(--space-xl) var(--space-md);
-		text-align: center;
-	}
-
-	.section-quote .container {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: var(--space-lg);
-		background: rgba(255, 255, 255, 0.75);
-		border-radius: var(--radius-md);
-		box-shadow: var(--shadow-md);
-		backdrop-filter: blur(3px);
-	}
-
-	.section-quote h2 {
-		font-family: var(--font-heading);
-		font-size: var(--font-xxl);
-		margin-bottom: var(--space-md);
-		color: var(--text-primary);
-	}
-
-	blockquote {
-		font-family: var(--font-quote);
-		font-style: italic;
-		font-size: var(--font-lg);
-		color: var(--text-secondary);
-		margin: 0;
-	}
-
-	blockquote footer {
-		margin-top: var(--space-sm);
-		font-size: var(--font-sm);
-		color: var(--text-tertiary);
-	}
 
     p {
         font-size: var(--font-base);
