@@ -32,14 +32,14 @@
 <div class="home-container">
     <!-- Hero Section -->
     <section class="opener">
-        <h1>> Welcome to my art portfolio, hope you like it here.</h1>
+        <h1>> Welcome to Nick's Portfolio, hope you like it.</h1>
         <br>
         <h1>> Might as well stick around, there's lots to see.</h1>
     </section>
 
     <!-- Featured Catalogue Section -->
     <section class="featured">
-        <h2>Featured Art Pieces</h2>
+        <h2>Programs I Have Worked In:</h2>
     <!--<div class="card-grid">
             {#each featuredItems as item, index}
                 <button
@@ -61,25 +61,31 @@
         </div>-->
             <div class="display">
                 <div>
-                    <p class="art-title">Piece 1: The Ruined One</p>
-                    <img class="image1" src="/images/catalogue/The Mimi.png"
-                    alt="A render of the Mimic from RUIN.">
+                    <p class="title">Autodesk Maya</p>
+                    <img class="image" src=""
+                    alt="">
                 </div>
                 <div>
-                    <p class="art-title">Piece 2: Into the Pit</p>
-                    <img class="image2" src="/images/catalogue/Pit_Bonnie.png"
-                    alt="A pixel art piece based on the game 'Into the Pit'.">
+                    <p class="title">Inkscape</p>
+                    <img class="image" src=""
+                    alt="">
                 </div>
                 <div>
-                    <p class="art-title">Piece 3: Simple Skeleton</p>
-                    <img class="image3" src="/images/catalogue/Skeleton_Render.jpg"
-                    alt="A model of a simple skeleton based on a previous 2D asset.">
+                    <p class="title">Visual Studio</p>
+                    <img class="image" src=""
+                    alt="">
                 </div>
                 <div>
-                    <p class="art-title">Piece 4: Caine's Abstraction</p>
-                <img class="image4" src="/images/catalogue/Caine Sketch.png"
-                alt="A pen sketch of Caine during his abstration from The Amazing Digital Circus.">
+                    <p class="title">Penpot</p>
+                    <img class="image" src=""
+                    alt="">
                 </div>
+                <div>
+                    <p class="title">Aseprite</p>
+                    <img class="image" src=""
+                    alt="">
+                </div>
+               
             </div>
         
         <!--<a class="browse-link" href="{resolve('/catalogue')}">Check out the rest of my work ></a>-->
@@ -152,32 +158,17 @@
 
     .display{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 
-    .art-title{
+    .title{
         font-family: 'Courier New', Courier, monospace;
         color: #ffffff;
         text-shadow: 1px 2px 2px #61c9f9;
     }
 
-    /*ARTWORK**/
-    .image1{
-        width: 250px;
-        height: 280px;
-    }
-
-    .image2{
-        width: 250px;
-        height: 280px;
-    }
-
-    .image3{
-        width: 250px;
-        height: 280px;
-    }
-
-    .image4{
+    /*LOGOS**/
+    .image{
         width: 250px;
         height: 280px;
     }
