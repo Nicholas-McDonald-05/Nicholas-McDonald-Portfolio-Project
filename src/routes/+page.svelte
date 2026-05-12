@@ -62,27 +62,27 @@
             <div class="display">
                 <div>
                     <p class="title">Autodesk Maya</p>
-                    <img class="image" src=""
+                    <img class="image" src="/images/catalogue/maya.png"
                     alt="">
                 </div>
                 <div>
                     <p class="title">Inkscape</p>
-                    <img class="image" src=""
+                    <img class="image2" src="/images/catalogue/inkscape.png"
                     alt="">
                 </div>
                 <div>
-                    <p class="title">Visual Studio</p>
-                    <img class="image" src=""
+                    <p class="title">Source FilmMaker</p>
+                    <img class="image" src="/images/catalogue/sfm.png"
                     alt="">
                 </div>
                 <div>
                     <p class="title">Penpot</p>
-                    <img class="image" src=""
+                    <img class="image" src="/images/catalogue/penpot.png"
                     alt="">
                 </div>
                 <div>
                     <p class="title">Aseprite</p>
-                    <img class="image" src=""
+                    <img class="image" src="/images/catalogue/aseprite.png"
                     alt="">
                 </div>
                
@@ -169,8 +169,13 @@
 
     /*LOGOS**/
     .image{
-        width: 250px;
-        height: 280px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .image2{
+        width: 170px;
+        height: 170px;
     }
 
     /* About Teaser */
