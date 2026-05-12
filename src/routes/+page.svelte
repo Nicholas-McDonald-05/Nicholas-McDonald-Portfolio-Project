@@ -95,7 +95,7 @@
     <section class="about-teaser">
         <h2>Want to know more about me?</h2>
         <p>
-            Visit my 'About Me' page below to find more about who I am.
+            Visit my 'About Me' page below to find out more.
         </p>
         <a href="{resolve('/about')}" class="learn-more">This Way ></a>
     </section>
