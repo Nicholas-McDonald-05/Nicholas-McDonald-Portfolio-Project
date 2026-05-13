@@ -40,27 +40,8 @@
     <!-- Featured Catalogue Section -->
     <section class="featured">
         <h2>Programs I Have Worked In:</h2>
-    <!--<div class="card-grid">
-            {#each featuredItems as item, index}
-                <button
-					type="button"
-					class="card-button"
-					on:click={() => goto(resolve('/catalogue/[title]', { title: item.title }))}
-					aria-label={`View details for ${item.title}`}
-				>
-                    <CatalogueCard
-                        title={item.title}
-                        description={item.description}
-                        image={item.image}
-                        category={item.category}
-                        tags={item.tags}
-                        animationDelay={index * 80}
-                    />
-                </button>
-            {/each}
-        </div>-->
             <div class="display">
-                <div>
+                <div class="grid-item">
                     <p class="title">Autodesk Maya</p>
                     <img class="image" src="/images/catalogue/maya.png"
                     alt="">
@@ -160,6 +141,12 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }
+
+    @media (max-width: 768px) {
+    .display {
+      grid-template-columns: repeat(1, 5fr);
+    }
+  }
 
     .title{
         font-family: 'Courier New', Courier, monospace;

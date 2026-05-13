@@ -24,11 +24,11 @@
     <div class="links">
         <div>
             <h2>Github: </h2>
-            <p>Link</p>
+            <p>Nicholas-McDonald-05</p>
         </div>
         <div>
             <h2>LinkedIn: </h2>
-            <p>Link</p>
+            <p>Nicholas McDonald</p>
         </div>
         <div>
             <h2> Personal Email: </h2>
@@ -88,6 +88,12 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    @media (max-width: 768px) {
+    .links {
+      grid-template-columns: repeat(1, 5fr);
+    }
+  }
 
     p {
         font-size: var(--font-base);

@@ -108,6 +108,12 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
+    @media (max-width: 768px) {
+    .display {
+      grid-template-columns: repeat(1, 5fr);
+    }
+  }
+
     .art-title{
         font-family: 'Courier New', Courier, monospace;
         color: #ffffff;
