@@ -1,7 +1,7 @@
 export async function entries() {
 	return [
 		{ title: "Withered Foxy Zine" },
-		{ title: "Metal Sonic Digital Painting" },
+		{ title: "Metal Sonic Painting" },
 		{ title: "Sketch" },
 		{ title: "Sketch" },
 		{ title: "Sketch" },
