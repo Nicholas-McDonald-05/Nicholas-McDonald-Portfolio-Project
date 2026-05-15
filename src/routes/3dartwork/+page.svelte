@@ -2,6 +2,7 @@
     import { fade } from 'svelte/transition';
     import { resolve } from '$app/paths';
 	import { goto } from '$app/navigation';
+    import { asset } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -18,42 +19,42 @@
         <div class="display">
             <div>
                 <p class="art-title">Piece 1: Breaker Room</p>
-                <img class="image" src="/images/catalogue/Breaker Room.png" 
+                <img class="image" src={asset("/images/catalogue/Breaker Room.png")}
                 alt="A render of Funtime Freddy from Help Wanted 2.">
             </div>
             <div>
                 <p class="art-title">Piece 2: The Bad Ending</p>
-                <img class="image" src="/images/catalogue/Burntrap.png"
+                <img class="image" src={asset("/images/catalogue/Burntrap.png")}
                 alt="A render of Burntrap and the Blob inspired by Security Breach.">
             </div>
             <div>
                 <p class="art-title">Piece 3: All In Your Mind</p>
-                <img class="image" src="/images/catalogue/All In Your Mind.png"
+                <img class="image" src={asset("/images/catalogue/All In Your Mind.png")}
                 alt="A render of the Nightmare Animatronics from Help Wanted.">
             </div>
             <div>
                 <p class="art-title">Piece 4: The Ruined One</p>
-                <img class="image" src="/images/catalogue/The Mimi.png"
+                <img class="image" src={asset("/images/catalogue/The Mimi.png")}
                 alt="A render of the Mimic from RUIN.">
             </div>
             <div>
                 <p class="art-title">Piece 5: He Always Does</p>
-                <img class="image" src="/images/catalogue/He Always Does.png"
+                <img class="image" src={asset("/images/catalogue/He Always Does.png")}
                 alt="A render to celebrate Springtrap coming to Dead by Daylight.">
             </div>
             <div>
                 <p class="art-title">Piece 6: Molten Dreams</p>
-                <img class="image" src="/images/catalogue/Molten.png"
+                <img class="image" src={asset("/images/catalogue/Molten.png")}
                 alt="A render of Molten Freddy from FFPS.">
             </div>
             <div>
                 <p class="art-title">Piece 7: Outside Your Window</p>
-                <img class="image" src="/images/catalogue/Ignited_Bonnie_Render.png"
+                <img class="image" src={asset("/images/catalogue/Ignited_Bonnie_Render.png")}
                 alt="A render of Ignited Bonnie from The Joy of Creation.">
             </div>
             <div>
                 <p class="art-title">Piece 8: Happy Birthday</p>
-                <img class="image" src="/images/catalogue/Happy Birthday.png"
+                <img class="image" src={asset("/images/catalogue/Happy Birthday.png")}
                 alt="A render to celebrate the Anniversary of Help Wanted.">
             </div>
         </div>
@@ -64,42 +65,42 @@
         <div class=display>
             <div>
                 <p class="art-title">Model 1: Book Test</p>
-                <img class="model" src="/images/catalogue/Simple_Book.jpg" 
+                <img class="model" src={asset("/images/catalogue/Simple_Book.jpg")} 
                 alt="A model test for creating a book in Maya.">
             </div>
             <div>
                 <p class="art-title">Model 2: Refined Book</p>
-                <img class="model" src="/images/catalogue/Simple_Book-Proper.jpg"
+                <img class="model" src={asset("/images/catalogue/Simple_Book-Proper.jpg")}
                 alt="A proper render of the previous book model.">
             </div>
             <div>
                 <p class="art-title">Model 3: Tea Cup</p>
-                <img class="model" src="/images/catalogue/TeaCup_Render.jpg"
+                <img class="model" src={asset("/images/catalogue/TeaCup_Render.jpg")}
                 alt="A model of a simple tea cup.">
             </div>
              <div>
                 <p class="art-title">Model 4: Simple Skeleton</p>
-                <img class="model" src="/images/catalogue/Skeleton_Render.jpg"
+                <img class="model" src={asset("/images/catalogue/Skeleton_Render.jpg")}
                 alt="A model of a simple skeleton based on a previous 2D asset.">
             </div>
              <div>
                 <p class="art-title">Model 5: Small Bus</p>
-                <img class="model" src="/images/catalogue/Van_Render.jpg"
+                <img class="model" src={asset("/images/catalogue/Van_Render.jpg")}
                 alt="The BUS.">
             </div>
              <div>
                 <p class="art-title">Model 6: Toy Car</p>
-                <img class="model" src="/images/catalogue/Toy Car.jpg"
+                <img class="model" src={asset("/images/catalogue/Toy Car.jpg")}
                 alt="A model of a small toy car with normals.">
             </div>
              <div>
                 <p class="art-title">Model 7: Simple Rock Wall</p>
-                <img class="model" src="/images/catalogue/Rock_Wall_New.jpg"
+                <img class="model" src={asset("/images/catalogue/Rock_Wall_New.jpg")}
                 alt="A model of a rock wall based on a previous 2D asset.">
             </div>
              <div>
                 <p class="art-title">Model 8: Early Scaffolding Test</p>
-                <img class="model" src="/images/catalogue/Scaffolding.png"
+                <img class="model" src={asset("/images/catalogue/Scaffolding.png")}
                 alt="The earliest 3D model I ever made modelled from a singular reference.">
             </div>
         </div>

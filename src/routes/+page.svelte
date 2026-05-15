@@ -1,6 +1,7 @@
 <script>
     import { fade } from 'svelte/transition';
     import { resolve } from '$app/paths';
+    import { asset } from '$app/paths';
 	import { goto } from '$app/navigation';
     import { CatalogueCard, Modal } from '$lib/components';
     import { catalogue } from '$lib/stores/catalogueStore.js';
@@ -43,33 +44,31 @@
             <div class="display">
                 <div class="grid-item">
                     <p class="title">Autodesk Maya</p>
-                    <img class="image" src="/images/catalogue/maya.png"
-                    alt="">
+                    <img class="image" src={asset("/images/catalogue/maya.png")}
+                    alt="maya logo">
                 </div>
                 <div>
                     <p class="title">Inkscape</p>
-                    <img class="image2" src="/images/catalogue/inkscape.png"
-                    alt="">
+                    <img class="image2" src={asset("/images/catalogue/inkscape.png")}
+                    alt="inkscape logo">
                 </div>
                 <div>
                     <p class="title">Source FilmMaker</p>
-                    <img class="image" src="/images/catalogue/sfm.png"
-                    alt="">
+                    <img class="image" src={asset("/images/catalogue/sfm.png")}
+                    alt="source filmmaker logo">
                 </div>
                 <div>
                     <p class="title">Penpot</p>
-                    <img class="image" src="/images/catalogue/penpot.png"
-                    alt="">
+                    <img class="image" src={asset("/images/catalogue/penpot.png")}
+                    alt="penpot logo">
                 </div>
                 <div>
                     <p class="title">Aseprite</p>
-                    <img class="image" src="/images/catalogue/aseprite.png"
-                    alt="">
+                    <img class="image" src={asset("/images/catalogue/aseprite.png")}
+                    alt="aseprite logo">
                 </div>
                
             </div>
-        
-        <!--<a class="browse-link" href="{resolve('/catalogue')}">Check out the rest of my work ></a>-->
     </section>
 
     <!-- About Teaser Section -->
@@ -90,7 +89,7 @@
         gap: var(--space-xl);
     }
 
-    /* Hero Section */
+    /* Opening Section */
     .opener {
         text-align: center;
         padding: var(--space-xl) var(--space-md);
@@ -165,7 +164,7 @@
         height: 170px;
     }
 
-    /* About Teaser */
+    /* About Section */
     .about-teaser {
         text-align: center;
         padding: var(--space-lg) var(--space-md);

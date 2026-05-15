@@ -74,7 +74,7 @@
         border-radius: var(--radius-md);
         box-shadow: 4px 3px 5px #61c9f9;
     }
-
+/*SOCIAL LINKS AND EMAILS**/
     .socials {
         background-color: #000000;
         background-size: 650px;
